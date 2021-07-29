@@ -1,0 +1,231 @@
+html, body{
+    font-family:  'PT Serif', serif;
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+    
+    }
+
+    header{
+        display: flex;
+        background: black;
+    }
+
+    .nav-list{
+        display: flex;
+        list-style: none;
+        
+        margin: 40px 0 0 0;
+    }
+
+a{
+
+    text-decoration: none;
+}
+
+    .header-nav{
+        margin-left: auto;
+}
+
+.header-logo{
+    width: 300px;
+    margin-left: 30px;
+
+}
+.nav-item{
+    margin-right:30px;
+    color: white;
+}
+
+h2{
+font-size: 40px;
+margin: 30px auto;
+
+}
+
+.top-list{
+    background-image: url(../image/top-bg.png);
+    background-position: center;
+    background-size: cover;
+height: 551px;
+}
+
+.top-picture{
+width: 100%;
+
+
+}
+
+.top-sentence{
+
+        font-size: 60px;
+        padding: 240px 0;
+        text-align: center;
+
+
+}
+
+.contents-list{
+    display: flex;
+    
+}
+
+.contents-picture{
+    width: 100%;
+}
+
+.contents-item{
+    font-size: 15px;
+  box-shadow: 4px 4px 2px gray;
+  margin: 5px 15px 5px 15px;
+}
+
+.contents-sentence{
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.contents-sentence::before{
+    border-top: solid black 1px;
+    position: absolute;
+    content: "";
+    width: 70%;
+    left: 0;
+    right: 0;
+top: -10px;   
+    margin: auto;
+
+
+    
+}
+
+
+.form{
+margin: 30px auto;
+
+}
+.moreview{
+box-shadow: 2px 2px 2px ;
+font-size:20px;
+padding: 5px 100px;
+
+background-color: #fff;
+
+font-family:  'PT Serif', serif;
+
+}
+
+.teacher-item{
+    display: flex;
+    margin: 20px 10px ;
+}
+
+.teacher-picture{
+
+    width:250px;
+height:250px;
+
+
+}
+
+.teacher{
+font-size: 28px;
+
+}
+
+.teacher-name{
+font-size: 28px;
+padding-top: 40px;
+
+}
+
+.teacer-exp {
+
+width: 100%;
+padding-left: 15px;
+
+}
+
+.teacher-sentence{
+margin-top: 40px;
+
+}
+
+
+
+
+
+.footer-content{
+    background-image: url(../image/contact-bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 455px;
+position:relative;
+
+}
+
+.top{
+font-size: 36px;
+color: #fff;
+padding-top: 60px;
+
+}
+
+.second{
+margin-top: 50px;
+font-size: 16px;
+color: #fff;
+}
+
+.third{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+
+
+.send{
+padding: 20px 57px;
+background-color: red;
+font-size: 16px;
+margin-top: 30px;
+margin-bottom: 30px;
+color: #fff;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px;
+border: none;
+}
+
+.copyright{
+background-color: black;
+text-align: center;
+color: #FFF;
+height: 80px;
+font-size: 14px;
+padding-top: 40px;
+}
+
+
+@media only screen and (max-width:767px){
+.contents-list{
+    flex-direction: column;
+}
+.contents-item{
+margin: 3px auto;
+width: 80%;
+
+}
+.teacher-item{
+    flex-direction: column;
+}
+
+.header-nav{
+visibility: hidden;
+
+}
+
+}
